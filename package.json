@@ -1,0 +1,28 @@
+{
+  "name": "cbp-formio-styles",
+  "version": "1.0.0",
+  "description": "Frontend custom formio styles",
+  "main": "dist/index.css",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "build": "yarn clean && parcel build src/index.scss",
+    "dev": "parcel watch src/index.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Casecommons/cbp-providers-web.git"
+  },
+  "author": "Casebook PBC (https://www.casebook.net)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Casecommons/cbp-providers-web/issues"
+  },
+  "homepage": "https://github.com/Casecommons/cbp-providers-web#readme",
+  "dependencies": {
+    "bootstrap": "4.3.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.23.0-module.beta.1"
+  }
+}
