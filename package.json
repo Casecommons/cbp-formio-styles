@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Casecommons/cbp-providers-web.git"
+    "url": "git+https://github.com/Casecommons/cbp-formio-styles.git"
   },
   "author": "Casebook PBC (https://www.casebook.net)",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/Casecommons/cbp-providers-web/issues"
+    "url": "https://github.com/Casecommons/cbp-formio-styles/issues"
   },
-  "homepage": "https://github.com/Casecommons/cbp-providers-web#readme",
+  "homepage": "https://github.com/Casecommons/cbp-formio-styles#readme",
   "dependencies": {
     "bootstrap": "4.3.1"
   },
