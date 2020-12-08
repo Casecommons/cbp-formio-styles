@@ -1,4 +1,7 @@
-{ 
+{
     "outputStyle": "nested",
-    "sourcemap": "none"
+    "sourcemap": "none",
+    "includePaths": [
+        "node_modules"
+    ]
 }

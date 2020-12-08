@@ -1,0 +1,6 @@
+/**
+ * this is used to import the styles for the form builder portion of formio,
+ * it should only really be included from admin-web
+ */
+@import "./shared_overrides";
+@import "./builder_overrides";
