@@ -1,0 +1,176 @@
+/* --> Override for builder sidebar */
+.form-builder-panel {
+  background-color: #f7f6fa;
+}
+
+.form-builder-panel button {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: left;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 0 !important;
+  margin: 0;
+  height: auto !important;
+}
+
+.form-builder-panel button:focus {
+  box-shadow: #FFFFFF 0 0 0 2px, #7362A8 0 0 0 4px !important;
+}
+
+.form-builder-panel .card-header {
+  padding: 0;
+  margin-bottom: 0;
+  border: 0px solid #FFFFFF;
+}
+
+.formcomponent {
+  color: #fff;
+  background-color: #7B6AAF;
+  border-color: #7B6AAF;
+  border-radius: 8px
+}
+
+.formcomponent:hover, .formcomponent:active {
+  background-color: #7362A8;
+  border-color: #7362A8;
+}
+
+/* --> Override for builder dialog */
+.formio-dialog.formio-dialog-theme-default .formio-dialog-content {
+  background-color: #FFFFFF;
+}
+
+.formio-dialog-content .choices__list--single {
+  padding: 8px 16px 4px 0px !important;
+}
+
+.formio-dialog-content button.formio-button-remove-row {
+  padding: 0;
+}
+
+.formio-dialog-content .formio-drag-button {
+  padding: 0;
+}
+
+.formio-dialog-content table.datagrid-table .form-group {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.formio-dialog-content table.datagrid-table td {
+  vertical-align: middle;
+}
+
+.formio-dialog-content .nav-tabs {
+  margin-bottom: 16px;
+}
+
+.formio-dialog-content .lead {
+  color: #030D20;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Droid Sans", Ubuntu, "Helvetica Neue", Arial, sans-serif;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.formio-dialog-content .input-group {
+  display: block;
+}
+
+.formio-dialog-content .input-group .radio-inline, .formio-dialog-content .input-group .checkbox-inline {
+  display: inline;
+  margin-right: .75rem;
+}
+
+.formio-dialog-content .form-check-input {
+  position: relative;
+  margin-left: 0;
+}
+
+.formio-dialog-content .formio-component-datetime .input-group {
+  display: flex !important;
+}
+
+.formio-dialog-content .formio-component-datetime .input-group-addon {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: .375rem .75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 0 8px 8px 0;
+  border-left: none;
+  border-left: none;
+}
+
+/* --> Builder overrides */
+.builder-components .input-group {
+  display: block;
+}
+
+.builder-components .input-group .radio-inline, .builder-components .input-group .checkbox-inline {
+  display: inline;
+  margin-right: .75rem;
+}
+
+.builder-components .form-check-input {
+  position: relative;
+  margin-left: 0;
+}
+
+.builder-components .formio-component-datetime .input-group {
+  display: flex !important;
+}
+
+.builder-components .formio-component-datetime .input-group-addon {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: .375rem .75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 0 8px 8px 0;
+  border-left: none;
+}
+
+.flatpickr-calendar {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Droid Sans", Ubuntu,
+  "Helvetica Neue", Arial, sans-serif;
+  color: #7B6AAF;
+}
+
+button[data-target="#group-premium"] {
+  display: none;
+}
+
+/* Remove placeholders, tooltips, tab index and initial focus */
+
+.formio-component-placeholder, .formio-component-tooltip, .formio-component-tabindex, .formio-component-autofocus {
+  display: none;
+}

@@ -1,12 +1,9 @@
 {
-  "name": "cbp-formio-styles",
+  "name": "@casecommons/cbp-formio-styles",
   "version": "1.0.0",
   "description": "Frontend custom formio styles",
-  "main": "dist/index.css",
+  "main": "src/index.scss",
   "scripts": {
-    "clean": "rimraf dist/*",
-    "build": "yarn clean && parcel build src/index.scss",
-    "dev": "parcel watch src/index.scss"
   },
   "repository": {
     "type": "git",
@@ -20,9 +17,5 @@
   "homepage": "https://github.com/Casecommons/cbp-formio-styles#readme",
   "dependencies": {
     "bootstrap": "4.3.1"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.3",
-    "sass": "^1.23.0-module.beta.1"
   }
 }
